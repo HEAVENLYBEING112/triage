@@ -9,4 +9,5 @@ def find_max(numbers):
 
 nums = []
 result = find_max(nums)
-print("Max value is: " , result)
+
+print("Max value is:", result if result else 'None')
