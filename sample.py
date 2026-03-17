@@ -1,10 +1,12 @@
-# --- sample.py ---
 numbers = [10, 20, 30, 40, 50]
 
-total = sum(numbers)
+total = 0
+
+for i in range(len(numbers)):
+    total = total + numbers[i]
 
 average = total / len(numbers)
 
-print("Average is:", average)
+print("Average is:", average
 
 print("Program completed")
