@@ -7,6 +7,6 @@ for i in range(len(numbers)):
 
 average = total / len(numbers)
 
-print("Average is:", average
+print("Average is:", average)
 
 print("Program completed")
