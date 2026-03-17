@@ -1,6 +1,9 @@
 numbers = [10, 20, 30, 40, 50]
 
-total = sum(numbers) # FIX 1: use built-in sum function
+total = 0
+
+for i in range(len(numbers)):
+    total = total + numbers[i]
 
 average = total / len(numbers)
 
